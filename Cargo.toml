@@ -1,11 +1,11 @@
 [package]
 name = "recaptcha"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 
 [dependencies]
 tokio = { version = "*", features = ["full"] }
-my-telemetry = { tag = "1.1.1", git = "https://github.com/MyJetTools/my-telemetry.git" }
+my-telemetry = { tag = "1.2.1", git = "https://github.com/MyJetTools/my-telemetry.git" }
 reqwest = { version = "*", features = ["json"] }
 
 
